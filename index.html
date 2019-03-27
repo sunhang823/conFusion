@@ -131,14 +131,15 @@
 
                         <div class="form-group row">
                             <lable for="section" class="col-md-2 col-form-label">Section</lable>
-                            <div class="col-md-4">
-                                <input type="date" class="form-control" id="date" name="date" placeholder="Date">
-                            </div>
-                            <div class="col-md-4">
-                                <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-success active">
+                                  <input type="radio" name="options" id="option1" autocomplete="off" checked> Non-Smoking
+                                </label>
+                                <label class="btn btn-danger">
+                                  <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                                </label>
                             </div>
                         </div>
-
 
                         <div class="form-group row">
                             <lable for="datetime" class="col-md-2 col-form-label">Date and Time</lable>
